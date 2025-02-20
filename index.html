@@ -1,13 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mon Site Simple</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>welcome </h1>
-    <p>paragraphe1</p>
+
+    <header>
+        <nav>
+            <div class="logo">MonSite</div>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Bienvenue sur Mon Site</h1>
+        <p>Un site web simple et responsive en HTML & CSS.</p>
+        <a href="#about" class="btn">En savoir plus</a>
+    </section>
+
+    <section id="about" class="about">
+        <h2>À propos</h2>
+        <p>Ce site est un exemple de design minimaliste et moderne.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Envoyez-nous un message à <strong>contact@monsite.com</strong></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 MonSite. Tous droits réservés.</p>
+    </footer>
+
 </body>
 </html>
